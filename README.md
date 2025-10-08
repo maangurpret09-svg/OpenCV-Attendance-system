@@ -29,7 +29,8 @@ Follow these steps to run the project locally:
 
 Clone the repository
 
-git clone https://github.com/yourusername/attendance-system.git
+git clone https://github.com/maangurpret09-svg
+/attendance-system.git
 
 
 Navigate to the project directory

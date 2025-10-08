@@ -24,7 +24,7 @@ import winsound
 
 #Paths
 
-face_recognizer_model_file = 'Msc_IT_students_face_trained.yml'
+face_recognizer_model_file = '' # Use your trained model file here
 
 mapping = "label_mapping.json"
 
@@ -39,19 +39,7 @@ if haar_cascade.empty():
     print("Haar cascade xml file not found or failed to load.") 
     exit()
     
-Students = [
-    ("MIT-25-01" , "Madiha Ashraf"),
-    ("MIT-25-02" , "Peerzada Shafat Nisar"),
-    ("MIT-25-03" , "Nadeem Gulzar"),
-    ("MIT-25-04" , "Ilham Ayaz"),
-    ("MIT-25-05" , "Gurpreet Singh"),
-    ("MIT-25-06" , "Iqra Gulzar"),
-    ("MIT-25-07" , "Ifham Mukhtar"),
-    ("MIT-25-08" , "Sameer Ayoub"),
-    ("MIT-25-09" , "Rabia Bashir"),
-    ("MIT-25-10" , "Zulfikar Ali Joo"),
-    ("MIT-25-11" , "Shahid Gulzar Bhat"),
-]
+Students = [] #Empty Student list
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 
 if not os.path.exists(face_recognizer_model_file) or not os.path.exists(mapping):
@@ -231,5 +219,6 @@ converted_photo = convert_heic_in_folder(photo_folder)
 process_photo()
 
 monthly_attendance()
+
 
 print(f"Total students marked today: {len(marked_today)}")

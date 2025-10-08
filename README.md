@@ -3,68 +3,51 @@
 
 A simple and efficient Attendance Management System built with Python (Flask) and SQLite to help record, manage, and track attendance digitally.
 
-📋 Features
+🔹 Features
 
-Add, update, and delete user records
+      ● Add and view student attendance
+      
+      ● Store data locally in a file
+      
+      ● Display attendance records clearly
+      
+      ● Easy to use and beginner-friendly
 
-Mark daily attendance with date and time
+🔹 Technologies Used
 
-View attendance history and reports
+      ● Programming Language: Python / OpenCV
+      
+      ● File Handling for saving attendance data daily and merging them at the end of month
 
-Store data securely in an SQLite database
+🔹 How to Run
 
-Clean and user-friendly interface
+      ● Open the project in your code editor
+      
+      ● Run the main program file
+      
+      ● Follow on-screen instructions to mark attendance
 
-🧠 Tech Stack
+🔹 Future Improvements
 
-Frontend: HTML, CSS, JavaScript
-
-Backend: Python (Flask Framework)
-
-Database: SQLite
-
-🚀 Installation & Setup
-
-Follow these steps to run the project locally:
-
-Clone the repository
-
-git clone https://github.com/maangurpret09-svg
-/attendance-system.git
-
-
-Navigate to the project directory
-
-cd attendance-system
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the application
-
-python app.py
-
-
-Open in browser
-Visit http://127.0.0.1:5000 to access the system.
+      ● Add date and time to records
+      
+      ● Generate attendance reports
+      
+      ● Create a simple UI
 
 🤝 Contributing
 
 Contributions are welcome!
 
-1. Fork the repository
-
-2. Create a new branch
-
-3. Make your changes
-
-4. Submit a pull request
+      1. Fork the repository
+      
+      2. Create a new branch
+      
+      3. Make your changes
+      
+      4. Submit a pull request
 
 💡 Author
 
-Your Name
 📧 Contact: Maangurpret09@gmail.com
-]
+
